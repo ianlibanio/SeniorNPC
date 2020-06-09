@@ -1,0 +1,8 @@
+name: SeniorNPC
+version: 1.0
+main: me.ianlibanio.npc.SeniorNPC
+api-version: 1.15.2
+authors: [zMrNull]
+description: Senior Team's application NPC.
+commands:
+  npc:
