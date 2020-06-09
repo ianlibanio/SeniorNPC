@@ -1,7 +1,5 @@
 package me.ianlibanio.npc;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import me.ianlibanio.npc.commands.NpcCommand;

@@ -1,14 +1,10 @@
 package me.ianlibanio.npc.helpers;
 
-import lombok.Getter;
 import me.ianlibanio.npc.SeniorNPC;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.stream.Stream;
 
 public abstract class HelperPlugin extends JavaPlugin {
 

@@ -2,7 +2,6 @@ package me.ianlibanio.npc.initializer;
 
 import com.mojang.authlib.GameProfile;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import me.ianlibanio.npc.SeniorNPC;
 import net.minecraft.server.v1_8_R3.*;
@@ -116,7 +115,7 @@ public class NPC {
 
     private void hit() {
         Bukkit.getOnlinePlayers().forEach(player -> {
-            ((CraftPlayer) player).getHandle().playerConnection.sendPacket(new PacketPlayOutAnimation(entityPlayer, 0));
+           ((CraftPlayer) player).getHandle().playerConnection.sendPacket(new PacketPlayOutAnimation(entityPlayer, 0));
         });
     }
 
