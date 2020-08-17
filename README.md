@@ -10,7 +10,7 @@ You can download the .jar into the [releases page](http://github.com/ianlibanio/
 
 ### Command
 
-The plugin has only one command: /npc. You can use /npc <set> <name> for defining the NPC location, then you can use /npc <spawn> <name> for spawning and executing NPC actions.
+The plugin has only one command: /npc. You can use /npc [set] [name] for defining the NPC location, then you can use /npc [spawn] [name] for spawning and executing NPC actions.
 
 ## Meta
 
