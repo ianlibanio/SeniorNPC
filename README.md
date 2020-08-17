@@ -1,6 +1,6 @@
 # Senior NPC
 
-> Senior NPC is a NPC plugin that execute some actions on a selected place.
+> Senior NPC is a NPC plugin that execute some actions on a selected location.
 
 ## Installation
 
